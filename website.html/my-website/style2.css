@@ -1,0 +1,194 @@
+body{
+    text-align: center;
+    background-color: white;
+    font-size: large;
+    font-style: normal;
+}
+p{font-family: 'PT Serif', serif;
+}
+
+.headers{
+    width: 100%;
+    height: 150px;
+}
+.navbar navbar-expand-lg bg-body-tertiary{
+    text-transform: uppercase;
+    list-style: none;
+    position: fixed;
+    overflow: hidden;
+}
+.container-fluid{
+    background-color: brown;
+}
+.navbar-brand{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+.dropdown-item{
+    color: darkgray;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+    .nav-item a{
+        text-decoration: none;
+        text-transform: uppercase;
+        margin: 5px;
+        color:black; 
+    }
+.dropdown-item{
+    color: darkgray;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    }
+.disc{
+    color: rgba(255, 0, 0, 0.801);
+}
+button:hover{
+    background-color: brown;
+    }
+.banners h4{
+    position: absolute;
+    top: 25%;
+    padding: 20px;
+   margin-top: 70px;
+    margin-left: 250px;  
+}
+.banners a{
+    text-decoration: none;
+}
+.rsession {
+    font-size: larger;
+    font-weight: 100;
+    font-display: 200px;   
+}
+.quote{
+   font-style: italic;
+   font-size: larger;
+   clear: left ;
+}
+.hr{
+    width: 30%;
+    float: left;
+}
+.hrt{
+    clear: right;   
+}
+h1{
+    background-color: teal;
+}
+.hr2{
+    float: right;
+}
+
+ul{
+    list-style: none;
+}
+.ab{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: gold;
+    border-bottom-right-radius: 40px;
+    box-shadow: 5px 10px white;
+    border-top-left-radius: 40px;
+
+}
+.mv{
+    font-family: 'Times New Roman';
+    background-color: chocolate;
+    font-style: italic;
+    border-top-left-radius: 40px;
+    box-shadow: whitesmoke;
+    border-bottom-right-radius: 40px;
+}
+img{
+    margin-top: 20px;
+    width: 300px;
+    height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 20px;
+    display: inline-block;
+}
+.menu{
+    float: inline-end;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: gray;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper h2{
+    color: #ffe100;
+    
+}
+.image{
+    width: 500px;
+   position: relative;
+    align-items: center;
+    flex-direction: column;
+    display: flexbox;
+    margin-left: 80px;
+}
+.actlink{
+    background-color: white;
+    border-radius: 50px;
+}
+.content{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background:rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;
+}
+.content:hover{
+    opacity: 1;
+
+}
+.content h1{
+    font-size: 45px;
+    color: #ffe100;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.content > *{
+    transform: translateY(25px);
+    transition: transform 0.6s;
+}
+.content:hover > *{
+    transform: translateY(0px);
+}
+
+.text{
+    padding: 50px 50px;
+}
+p{
+    padding-top: o;
+    padding-left: 50px; 
+    padding-right: 50px;
+    font-weight: 100;
+}
+.rsession{
+    background-color: white;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+#footer{
+    background-color: cyan;
+    padding-top: 15px;}
